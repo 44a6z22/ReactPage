@@ -1,0 +1,25 @@
+#title #space{
+    background-color: black;
+    padding-left: 60px;    
+    margin-top:14px ;
+    height: 1px;
+}
+#title{
+    text-transform: uppercase;
+}
+.bg-CustomColor-1{
+    background-color: #72738e;
+}
+.text-CustomColor-1{
+    color: #72738e;
+}
+#first-card {
+    z-index: 1;
+}
+#second-card{
+    z-index: 22;
+}
+
+.bg-card-purple{
+    background-color: #333456 !important;
+}
