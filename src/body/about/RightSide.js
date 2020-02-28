@@ -1,17 +1,14 @@
 import React from 'react'; 
+import Title from '../../shared/Title';
+import ForwardButton from '../../shared/ForwardButton';
 
 function RightSide(){
     return (
     
     <div id="right-side" class="py-24">
-            <div id="title" class="flex">
-                <span>01</span>
-                <div id="space" class="mx-3">
-                </div>
-                <span>About Us</span>
-            </div>
+            <Title value="About Us" id="1" theme="dark"/>
 
-            <div class="py-4" >
+            <div class="py-4 text-CustomColor-1" >
                 <h2>Let's make cities better</h2>
                 <p class="py-4">
                     Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
@@ -25,24 +22,7 @@ function RightSide(){
 
             <hr />
 
-            <div class="flex py-4">
-                <button
-                    class="rounded-full h-16 w-16 flex items-center justify-center bg-CustomColor-1 mx-4 text-gray-500"
-                >
-                    <i class="fa fa-times fa-lg" ></i>
-                </button>
-
-                <div class="py-1">
-                    <p>Interested in our values? </p>
-                    <a
-                        class="text-gray-700 hover:text-gray-700"
-                        href="#"
-                    >
-                        Learn more about our company
-                    <i class="fa fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
+            <ForwardButton additionalInfo="Interested in our values?" link="#How" value="Learn more about our company" />
     </div>
         
 

@@ -1,5 +1,4 @@
 import React from "react";
-
 function SubscribeForm(props){
 
     return (
@@ -17,7 +16,7 @@ function SubscribeForm(props){
                 </div>
                 <form class="py-3">
                     <input 
-                        class="bg-gray-200 appearance-none border-2 rounded border-gray-200 py-3 px-4 text-gray-700 leading-tight"
+                        class="bg-gray-200 border-gray-400 py-3 px-4 text-gray-700 leading-tight w-68 border-b"
                         type="text" 
                         placeholder="Phone Number ..." 
                         />

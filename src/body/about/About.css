@@ -13,13 +13,22 @@
 .text-CustomColor-1{
     color: #72738e;
 }
+
+.text-CustomColor-2{
+    color: #333456;
+}
 #first-card {
     z-index: 1;
 }
 #second-card{
     z-index: 22;
+    margin-top: -220px;
 }
 
 .bg-card-purple{
     background-color: #333456 !important;
+}
+.great-backgroud-card{
+    height: 500px;
+    width: 370px;
 }

@@ -1,14 +1,14 @@
 import React from 'react'; 
 
-function LeftSide(){
+function LeftSide(props){
 
     return (
-        <div id="left-section">
-            <div class="h-64 w-48 bg-black py-24">
+        <div id="left-section" class="mt-8 ml-0 ">
+            <div id="first-card" class="great-backgroud-card bg-gray-200 my-10">
+                <img src={props.img} class="py-8"/>
             </div>
             
-            
-            <div id="second-card" class="border-b border-gray-400 bg-card-purple m-4 p-2 flex flex-col justify-between ">
+            <div id="second-card" class="border-b border-gray-400 bg-card-purple ml-8 p-2 flex flex-col justify-between ">
                 <div class="mb-8 pl-4 pt-4">
                     <p class="text-gray-700 text-white border-l pl-4">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."</p>
                 </div>
@@ -30,7 +30,7 @@ function LeftSide(){
                             <i class="fa fa-star px-1"></i>
                         </div>
                         <p class="text-sm  text-CustomColor-1">
-                            28 reviews at Yelp
+                            {props.rate} reviews at Yelp
                         </p>
                     </div>
                 </div>

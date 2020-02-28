@@ -5,7 +5,7 @@ import Navbar from "../shared/navebar/Navbar";
 import SubscribeForm from "./midHeader/SubscribeForm";
 import Sponsors from "./Sponsors/sponsors";
 
-function Header(){
+function Header(props){
     return (
         // structure of this component .
         // navbar; 
@@ -14,7 +14,7 @@ function Header(){
             <header class="bg-gray-200">
                 <div class="container mx-auto">
                     <Navbar />
-                    <SubscribeForm img="C:\Users\Youcode\Desktop\personal-website\public\X.png" />
+                    <SubscribeForm img={props.img} />
                 </div>
                 <Sponsors />
             </header>
