@@ -1,11 +1,12 @@
 import React from 'react'; 
+import ForwardButton from '../../shared/ForwardButton';
 
 function LeftSide(props){
 
     return (
         <div id="left-section" class="mt-8 ml-0 ">
             <div id="first-card" class="great-backgroud-card bg-gray-200 my-10">
-                <img src={props.img} class="py-8"/>
+                <img src={props.img} alt="logo" class="py-8"/>
             </div>
             
             <div id="second-card" class="border-b border-gray-400 bg-card-purple ml-8 p-2 flex flex-col justify-between ">
@@ -14,11 +15,12 @@ function LeftSide(props){
                 </div>
                 <div class="flex items-center justify-between text-white">
                     <div class="flex items-center">
-                        <button
-                            class="rounded-full h-10 w-10 flex items-center justify-center bg-CustomColor-1 ml-8 mr-3 ml-12 text-gray-500"
-                        >
-                            <i class="fa fa-times fa-lg" ></i>
-                        </button>
+                        <ForwardButton
+                            additionalInfo=""
+                            link=""
+                            value=""
+                            btnStyle="rounded-full h-12 w-12 flex items-center justify-center bg-CustomColor-1  mx-4 text-gray-500"
+                        />
                         <h7 class="text-CustomColor-1 " >SAM R.</h7>
                     </div>
                     <div class="py-3">

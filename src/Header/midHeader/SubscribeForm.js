@@ -28,7 +28,7 @@ function SubscribeForm(props){
                 </form>
             </div>
             <div class="px-5" >
-                <img src={props.img} alt="Some Image"/>
+                <img src={props.img} alt="react logo"/>
             </div>
         </div>
     );

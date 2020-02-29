@@ -2,11 +2,11 @@ import React from 'react';
 import Title from '../../shared/Title';
 import ForwardButton from '../../shared/ForwardButton';
 
-function RightSide(){
+function RightSide(props){
     return (
     
     <div id="right-side" class="py-24">
-            <Title value="About Us" id="1" theme="dark"/>
+            <Title value="About Us" index={props.index} theme="dark"/>
 
             <div class="py-4 text-CustomColor-1" >
                 <h2>Let's make cities better</h2>
@@ -22,7 +22,12 @@ function RightSide(){
 
             <hr />
 
-            <ForwardButton additionalInfo="Interested in our values?" link="#How" value="Learn more about our company" />
+            <ForwardButton 
+                additionalInfo="Interested in our values?" 
+                link="#How" 
+                value="Learn more about our company" 
+                btnStyle="rounded-full h-16 w-16 flex items-center justify-center bg-CustomColor-1 mx-4 text-gray-500"
+                />
     </div>
         
 

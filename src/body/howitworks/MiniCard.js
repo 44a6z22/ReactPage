@@ -12,7 +12,11 @@ function MiniCard(props) {
             </p>
             <hr />
 
-            <ForwardButton additionalInfo={props.additionalInfo} link={props.link} value={props.value} />
+            <ForwardButton 
+                additionalInfo={props.additionalInfo} 
+                link={props.link} 
+                value={props.value}
+                btnStyle="rounded-full h-12 w-12 flex items-center justify-center bg-CustomColor-1 mx-4 text-gray-500"  />
         </div>
     );
 }

@@ -1,15 +1,15 @@
 import React from 'react'; 
 import LeftSide from './LeftSide';
 import RightSide from './RightSide';
+import "./ServiceZone.css";
 
-function ServiceZone(){
+function ServiceZone(props){
     return (
-        <div class="grid grid-cols-2 gap-4" >
-            <LeftSide />
-            <RightSide />
+        <div class="py-24" >
+            <RightSide index={props.index} />
+            <LeftSide img={props.img} />
         </div>
     );
 }
-
 
 export default ServiceZone;

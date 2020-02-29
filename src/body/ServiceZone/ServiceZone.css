@@ -1,0 +1,15 @@
+.big-card-1{
+    z-index: 99;
+    height: 760px;
+    width: 430px;
+    margin-top:-60%;
+}
+
+.big-card-2{
+    z-index: 1;
+    width:50%;
+    margin-left: 35%;
+    /* margin-top: -35%; */
+/*     
+    margin-right: 00px; */
+}

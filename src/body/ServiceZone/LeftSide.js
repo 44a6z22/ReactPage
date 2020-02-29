@@ -1,9 +1,9 @@
 import React from 'react';
 
-function LeftSide() {
+function LeftSide(props) {
     return (
-        <div>
-            <img src="#" />
+        <div class="bg-CustomColor-1 big-card-1 ml-48 text-center">
+            <img src={props.img} alt="logo" />
         </div>
     );
 }

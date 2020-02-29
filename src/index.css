@@ -17,3 +17,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-CustomColor-1{
+    background-color: #72738e;
+}
+.text-CustomColor-1{
+    color: #72738e;
+}
+
+.text-CustomColor-2{
+    color: #333456;
+}
+.bg-card-purple{
+    background-color: #333456 !important;
+}
