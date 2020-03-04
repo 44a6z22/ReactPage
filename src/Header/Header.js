@@ -12,7 +12,8 @@ function Header(props){
         // Caption.
         // headerFooter.
             <header class="bg-gray-200">
-                <div class="container mx-auto">
+                    
+                <div class="container mx-auto">   
                     <Navbar />
                     <SubscribeForm img={props.img} />
                 </div>

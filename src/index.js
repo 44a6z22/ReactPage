@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import App from './shared/App';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
-// import FaFacebook from "react-icons/fa";
+
 
 
 ReactDOM.render(<App />, document.getElementById('root'));

@@ -31,9 +31,9 @@ export default function App() {
                 img={Logo} 
                 index={++index}
                 />
-            <Pricing 
+            {/* <Pricing 
                 index={++index}
-                />
+                /> */}
         </div>
        
         

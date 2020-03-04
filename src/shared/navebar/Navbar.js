@@ -2,7 +2,7 @@ import React  from "react";
 
 function Navbar(){
     return (
-        <nav>
+        <nav class="" >
             <ul class="flex justify-between ">
                 <li class="mr-2">
                     <a class="inline-block  py-4 px-4 text-black hover:text-black cursor-pointer" href="#">UpShift</a>
